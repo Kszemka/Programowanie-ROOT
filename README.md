@@ -2,7 +2,7 @@ Pierwsze ćwiczenie z makrami ROOT. Program przelicza temperaturę pomiędzy ska
 
 ##### Klonowanie repozytorium 
 
-    git clone git@github.com:KR-ROOT-Class/FirstROOTMacro.git
+    git clone git@github.com:KR-ROOT-Class/CalcCelsius.git
 
 ##### Uruchomienie
     root
