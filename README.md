@@ -18,7 +18,7 @@ root
 LoadAllMacros()
 ```
 
-## Wywoływanie skryptów
+## Wywoływanie makra
 
 - `WidmoCs("<nazwa_pliku>")` - argument domyślny to "Cs-137.dat". Tworzy histogram w ROOT z podanego pliku z danymi, zapisuje wynik w pliku ROOT i PNG.
 - `Rewrite("<nazwa_pliku>")` - argument domyślny to "Cs-137.dat". Przepisuje dane z pliku do formatu binarnego, wyświetla zawartość.
