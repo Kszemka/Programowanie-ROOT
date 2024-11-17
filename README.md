@@ -1,4 +1,4 @@
-# Pierwsze zadanie z programowania w języku ROOT
+# Zadanie z programowania w języku ROOT
 
 ## Wymagania wstępne
 
@@ -10,7 +10,7 @@
 git clone <link do repo>
 ```
 
-## Załadowanie Makr
+## Załadowanie makr
 
 ```
 root
