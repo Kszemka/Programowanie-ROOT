@@ -1,16 +1,37 @@
-Pierwsze ćwiczenie z makrami ROOT. Program przelicza temperaturę pomiędzy skalami Celsjusza oraz Fahrenheita. 
+# Pierwsze zadanie z programowania w języku ROOT
 
-##### Klonowanie repozytorium 
+## Wymagania wstępne
 
-    git clone git@github.com:KR-ROOT-Class/CalcCelsius.git
+- Instalacja oprogramowania ROOT (szczegóły w linku: [ROOT Installation](https://root.cern/install/))
 
-##### Uruchomienie
-    root
-    .L CalcCelsius.C
+## Klonowanie repozytorium
 
-##### Wywołanie funkcji
-    CalcCelsius(200)
-    CalcFahrenheit(30)
+```
+git clone <link do repo>
+```
 
-##### Wyjście z sesji ROOT
-    .q
+## Załadowanie Makr
+
+```
+root
+.L LoadMacros.C
+LoadAllMacros()
+```
+
+## Wywoływanie skryptów
+
+- `WidmoCs("<nazwa_pliku>")` - argument domyślny to "Cs-137.dat". Tworzy histogram w ROOT z podanego pliku z danymi, zapisuje wynik w pliku ROOT i PNG.
+- `Rewrite("<nazwa_pliku>")` - argument domyślny to "Cs-137.dat". Przepisuje dane z pliku do formatu binarnego, wyświetla zawartość.
+- `WidmoCsBin("<nazwa_pliku>")` - argument domyślny to "Cs-137.bin". Tworzy histogram w ROOT z podanego pliku binarnego, zapisuje wynik w pliku ROOT i PNG.
+- `DrawHistograms()` - tworzy histogramy 2D i 3D dla czterech przykładowych rozkładów (dane generowane losowo).
+
+## Troubleshooting
+
+W przypadku błędu, warto spróbować uruchomić ponownie program ROOT:
+
+```
+.q
+root
+```
+
+Następnie powtórzyć kroki załadowania makr i wywołania wybranego makra.
