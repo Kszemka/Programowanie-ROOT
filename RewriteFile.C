@@ -1,3 +1,5 @@
+//Aleksandra Krzeminska, 15.11
+
 #include <iostream>
 #include <fstream>
 #include <vector>

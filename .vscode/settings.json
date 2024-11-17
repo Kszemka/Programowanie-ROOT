@@ -3,6 +3,8 @@
         "WidmoCs.C": "cpp",
         "RewriteFile.C": "cpp",
         "LoadMacros.C": "cpp",
-        "HistogramStack.C": "cpp"
+        "HistogramStack.C": "cpp",
+        "fstream": "cpp",
+        "WidmoCsBin.C": "cpp"
     }
 }

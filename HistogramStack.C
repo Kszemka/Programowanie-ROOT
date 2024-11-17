@@ -1,3 +1,5 @@
+//Aleksandra Krzeminska, 15.11
+
 #include <TH1F.h>
 #include <THStack.h>
 #include <TRandom3.h>

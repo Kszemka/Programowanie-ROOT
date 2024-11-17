@@ -1,3 +1,5 @@
+//Aleksandra Krzeminska, 15.11
+
 Bool_t LoadAllMacros() {
     if (gROOT->ProcessLine(".L WidmoCs.C") != 0) {
         std::cerr << "Error loading WidmoCs.C" << std::endl;
